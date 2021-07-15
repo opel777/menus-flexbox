@@ -39,7 +39,7 @@ nav ul a {
 .sencillo ul{
     display: flex;
     justify-content: space-between; 
-    flex-direction: column;  j
+    flex-direction: column;  
 
 }
 
