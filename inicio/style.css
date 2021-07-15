@@ -34,3 +34,19 @@ nav ul a {
     text-decoration: none;
     font-size: 1.4rem;
 }
+
+/** sencillo**/
+.sencillo ul{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;  j
+
+}
+
+@media screen and (min-width: 768px) {
+    .sencillo ul {
+        flex-direction: row;
+    }
+
+    
+}
