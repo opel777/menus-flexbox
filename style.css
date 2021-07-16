@@ -64,6 +64,13 @@ nav ul a {
 }
 
 /** Iconos **/
+.iconos ul li a {
+    display: flex;
+    justify-content: center;
+}
+.iconos .icono { 
+    flex: 0 1 2rem;
+}
 .iconos .texto span {
     font-size: .8rem;
     display: block;
