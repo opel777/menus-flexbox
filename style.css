@@ -109,14 +109,23 @@ nav ul a {
          flex-direction: column;
      } 
       
-     @media screen and (min-width:768px){
+@media screen and (min-width:768px){
         .dropdown ul li {
             position: relative;
             display: flex;
             flex: 1 1 100%;
          }
          .dropdown ul li ul {
+             display: none;
              position:absolute;
+             top: 100%;
+             left: 0%;
+             background-color: #ff5e62;
+         }
+         .dropdown ul li:hover ul {
+             display: flex;
+             flex-direction: column;
+             width: 100%;
          }
     
         }
