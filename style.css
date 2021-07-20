@@ -163,4 +163,6 @@ nav ul a {
 
 .navegacion-social-dropdown {
     display: flex;
+    justify-content: space-between;
+    background-color: #3F51B5;
 }
